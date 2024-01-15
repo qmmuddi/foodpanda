@@ -1,0 +1,47 @@
+.navbar{
+    position: fixed;
+    display: flex;
+    flex-direction:row;
+    justify-content: flex-end;
+    justify-content: center;
+    justify-items: flex-end;
+    margin: 5px;
+    flex-wrap: wrap;
+    min-width: 200px;
+    height: 55px;
+    width: 100%;
+    background-color: rgb(235, 56, 166);
+    list-style: none;
+}
+h2:hover{
+    color: whitesmoke;
+    border: 3px;
+    border-radius: 3px;
+}
+h1:hover{
+    margin: 0px;
+    padding: 5px;
+    color: rgb(235, 56, 166);
+}
+.images > img{
+    padding: 0px;
+    margin: 50px;
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+.images{
+    display: flex;
+    flex-wrap: wrap;
+    display: inline;
+}
+li{
+    list-style: none;
+    text-decoration: none;
+}
+.main > span{
+    border: 5px;
+    border-radius: 3px;
+
+}
